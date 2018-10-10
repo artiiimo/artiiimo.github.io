@@ -63,14 +63,14 @@ body {
 
 h1{
     color: #FFFFFF;
-    font: 900 90px 'Pacifico', cursive;
+    font: 900 8vw 'Pacifico', cursive;
     text-shadow: 0px 4px 8px rgba(0,0,0,0.6);
     margin-bottom: 24px;
 }
 
 h2{
-    font-size:25px;
-	line-height:30px;
+    font-size:2vw;
+	line-height:2vw;
 	font-family: Arial,Helvetica,Verdana,Sans-Serif;
 	color:#eaf2ff;
     margin: 30px;
