@@ -1,0 +1,84 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    
+}
+html, body{
+    width: 100%; height: 100%; margin: 0 auto; text-align: center; 
+}
+body {
+    	width: 100wh;
+	height: 90vh;
+	color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(-45deg, rgba(238, 119, 82, 0.76), rgba(231, 60, 126, 0.59), rgba(35, 166, 213,0.67) ,rgba(35, 213, 171, 0.68)),url(https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg);
+	background-size: 400% 400%, 100% 100%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.container{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    color: #FFFFFF;
+    font: 900 90px 'Pacifico', cursive;
+    text-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+    margin-bottom: 24px;
+}
+
+h2{
+    font-size:25px;
+	line-height:30px;
+	font-family: Arial,Helvetica,Verdana,Sans-Serif;
+	color:#eaf2ff;
+    margin: 30px;
+    text-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+    background:linear-gradient(to left,rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
